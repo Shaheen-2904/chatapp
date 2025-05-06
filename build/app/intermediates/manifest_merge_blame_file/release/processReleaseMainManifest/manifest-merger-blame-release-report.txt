@@ -1,0 +1,644 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vassar.fieldrishi"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:2:5-70
+11-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:2:22-68
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:3:5-66
+12-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.BLUETOOTH" />
+13-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:4:5-67
+13-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:4:22-65
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+14-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:5:5-73
+14-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:5:22-71
+15    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+15-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:6:5-75
+15-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:6:22-73
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:7:5-76
+16-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:7:22-74
+17    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+17-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:8:5-84
+17-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:8:22-82
+18    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+18-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:9:5-79
+18-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+19-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:10:5-74
+19-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:10:22-71
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:11:5-80
+20-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:11:22-78
+21    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+21-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:12:5-80
+21-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:12:22-78
+22
+23    <queries>
+23-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:14:5-18:15
+24        <intent>
+24-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:15:9-17:18
+25            <action android:name="android.speech.RecognitionService" />
+25-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:16:13-72
+25-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:16:21-69
+26        </intent>
+27        <intent>
+27-->[:file_picker] /home/vassar/Desktop/chatApp/gka/build/file_picker/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-12:18
+28            <action android:name="android.intent.action.GET_CONTENT" />
+28-->[:file_picker] /home/vassar/Desktop/chatApp/gka/build/file_picker/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-72
+28-->[:file_picker] /home/vassar/Desktop/chatApp/gka/build/file_picker/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:21-69
+29
+30            <data android:mimeType="*/*" />
+30-->[:file_picker] /home/vassar/Desktop/chatApp/gka/build/file_picker/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-44
+30-->[:file_picker] /home/vassar/Desktop/chatApp/gka/build/file_picker/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:19-41
+31        </intent>
+32    </queries>
+33
+34    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+34-->[:livespeechtotext] /home/vassar/Desktop/chatApp/gka/build/livespeechtotext/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-80
+34-->[:livespeechtotext] /home/vassar/Desktop/chatApp/gka/build/livespeechtotext/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:22-77
+35    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+35-->[:connectivity_plus] /home/vassar/Desktop/chatApp/gka/build/connectivity_plus/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-79
+35-->[:connectivity_plus] /home/vassar/Desktop/chatApp/gka/build/connectivity_plus/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:22-76
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-68
+36-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:22-65
+37    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+37-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-77
+37-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:22-74
+38    <uses-permission android:name="android.permission.VIBRATE" />
+38-->[:flutter_local_notifications] /home/vassar/Desktop/chatApp/gka/build/flutter_local_notifications/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:5-66
+38-->[:flutter_local_notifications] /home/vassar/Desktop/chatApp/gka/build/flutter_local_notifications/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:7:22-63
+39    <uses-permission
+39-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:5-10:38
+40        android:name="android.permission.READ_EXTERNAL_STORAGE"
+40-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:9-64
+41        android:maxSdkVersion="32" />
+41-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:9-35
+42    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+42-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:5-76
+42-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:22-73
+43    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+43-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:5-75
+43-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:22-72
+44    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+44-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:5-75
+44-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:22-72
+45    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+45-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:26:5-82
+45-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:26:22-79
+46
+47    <permission
+47-->[androidx.core:core:1.16.0] /home/vassar/.gradle/caches/transforms-4/4b48f0ea205cb65f703c6282f9a4efde/transformed/core-1.16.0/AndroidManifest.xml:22:5-24:47
+48        android:name="com.vassar.fieldrishi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+48-->[androidx.core:core:1.16.0] /home/vassar/.gradle/caches/transforms-4/4b48f0ea205cb65f703c6282f9a4efde/transformed/core-1.16.0/AndroidManifest.xml:23:9-81
+49        android:protectionLevel="signature" />
+49-->[androidx.core:core:1.16.0] /home/vassar/.gradle/caches/transforms-4/4b48f0ea205cb65f703c6282f9a4efde/transformed/core-1.16.0/AndroidManifest.xml:24:9-44
+50
+51    <uses-permission android:name="com.vassar.fieldrishi.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+51-->[androidx.core:core:1.16.0] /home/vassar/.gradle/caches/transforms-4/4b48f0ea205cb65f703c6282f9a4efde/transformed/core-1.16.0/AndroidManifest.xml:26:5-97
+51-->[androidx.core:core:1.16.0] /home/vassar/.gradle/caches/transforms-4/4b48f0ea205cb65f703c6282f9a4efde/transformed/core-1.16.0/AndroidManifest.xml:26:22-94
+52
+53    <application
+54        android:name="android.app.Application"
+54-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:21:9-42
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.16.0] /home/vassar/.gradle/caches/transforms-4/4b48f0ea205cb65f703c6282f9a4efde/transformed/core-1.16.0/AndroidManifest.xml:28:18-86
+56        android:extractNativeLibs="true"
+57        android:icon="@mipmap/ic_launcher"
+57-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:22:9-43
+58        android:label="APAIMSBot" >
+58-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:20:9-34
+59        <activity
+59-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:23:9-46:20
+60            android:name="com.vassar.fieldrishi.MainActivity"
+60-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:24:13-41
+61            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+61-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:28:13-163
+62            android:enableOnBackInvokedCallback="true"
+62-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:30:13-55
+63            android:exported="true"
+63-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:25:13-36
+64            android:hardwareAccelerated="true"
+64-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:29:13-47
+65            android:launchMode="singleTop"
+65-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:26:13-43
+66            android:showWhenLocked="true"
+66-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:31:13-42
+67            android:theme="@style/LaunchTheme"
+67-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:27:13-47
+68            android:turnScreenOn="true"
+68-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:32:13-40
+69            android:windowSoftInputMode="adjustResize" >
+69-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:33:13-55
+70
+71            <!--
+72                 Specifies an Android theme to apply to this Activity as soon as
+73                 the Android process has started. This theme is visible to the user
+74                 while the Flutter UI initializes. After that, this theme continues
+75                 to determine the Window background behind the Flutter UI.
+76            -->
+77            <meta-data
+77-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:38:13-41:19
+78                android:name="io.flutter.embedding.android.NormalTheme"
+78-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:39:17-72
+79                android:resource="@style/NormalTheme" />
+79-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:40:17-54
+80
+81            <intent-filter>
+81-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:42:13-45:29
+82                <action android:name="android.intent.action.MAIN" />
+82-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:43:17-68
+82-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:43:25-66
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:44:17-76
+84-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:44:27-74
+85            </intent-filter>
+86        </activity>
+87        <!--
+88             Don't delete the meta-data below.
+89             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+90        -->
+91        <meta-data
+91-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:49:9-51:33
+92            android:name="flutterEmbedding"
+92-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:50:13-44
+93            android:value="2" />
+93-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:51:13-30
+94
+95        <receiver
+95-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:52:9-125
+96            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+96-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:52:44-122
+97            android:exported="false" />
+97-->/home/vassar/Desktop/chatApp/gka/android/app/src/main/AndroidManifest.xml:52:19-43
+98
+99        <service
+99-->[:geolocator_android] /home/vassar/Desktop/chatApp/gka/build/geolocator_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-12:56
+100            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+100-->[:geolocator_android] /home/vassar/Desktop/chatApp/gka/build/geolocator_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-77
+101            android:enabled="true"
+101-->[:geolocator_android] /home/vassar/Desktop/chatApp/gka/build/geolocator_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:13-35
+102            android:exported="false"
+102-->[:geolocator_android] /home/vassar/Desktop/chatApp/gka/build/geolocator_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-37
+103            android:foregroundServiceType="location" />
+103-->[:geolocator_android] /home/vassar/Desktop/chatApp/gka/build/geolocator_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:13-53
+104        <service
+104-->[:firebase_database] /home/vassar/Desktop/chatApp/gka/build/firebase_database/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-12:19
+105            android:name="com.google.firebase.components.ComponentDiscoveryService"
+105-->[:firebase_database] /home/vassar/Desktop/chatApp/gka/build/firebase_database/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:18-89
+106            android:directBootAware="true"
+106-->[com.google.firebase:firebase-common:21.0.0] /home/vassar/.gradle/caches/transforms-4/26246f93c92a770f1364ea590bd48519/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+107            android:exported="false" >
+107-->[com.google.firebase:firebase-database:21.0.0] /home/vassar/.gradle/caches/transforms-4/1494ee7cc89abedf25c09c0ed1273c0b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:28:13-37
+108            <meta-data
+108-->[:firebase_database] /home/vassar/Desktop/chatApp/gka/build/firebase_database/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-11:85
+109                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+109-->[:firebase_database] /home/vassar/Desktop/chatApp/gka/build/firebase_database/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:17-127
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[:firebase_database] /home/vassar/Desktop/chatApp/gka/build/firebase_database/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:17-82
+111            <meta-data
+111-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:36:13-38:85
+112                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+112-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:37:17-128
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:38:17-82
+114            <meta-data
+114-->[:firebase_storage] /home/vassar/Desktop/chatApp/gka/build/firebase_storage/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-11:85
+115                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+115-->[:firebase_storage] /home/vassar/Desktop/chatApp/gka/build/firebase_storage/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:17-126
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[:firebase_storage] /home/vassar/Desktop/chatApp/gka/build/firebase_storage/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:17-82
+117            <meta-data
+117-->[:firebase_core] /home/vassar/Desktop/chatApp/gka/build/firebase_core/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-11:85
+118                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+118-->[:firebase_core] /home/vassar/Desktop/chatApp/gka/build/firebase_core/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:17-124
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[:firebase_core] /home/vassar/Desktop/chatApp/gka/build/firebase_core/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-database:21.0.0] /home/vassar/.gradle/caches/transforms-4/1494ee7cc89abedf25c09c0ed1273c0b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:29:13-31:85
+121                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+121-->[com.google.firebase:firebase-database:21.0.0] /home/vassar/.gradle/caches/transforms-4/1494ee7cc89abedf25c09c0ed1273c0b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:30:17-120
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-database:21.0.0] /home/vassar/.gradle/caches/transforms-4/1494ee7cc89abedf25c09c0ed1273c0b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:31:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-database:21.0.0] /home/vassar/.gradle/caches/transforms-4/1494ee7cc89abedf25c09c0ed1273c0b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:32:13-34:85
+124                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+124-->[com.google.firebase:firebase-database:21.0.0] /home/vassar/.gradle/caches/transforms-4/1494ee7cc89abedf25c09c0ed1273c0b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:33:17-109
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-database:21.0.0] /home/vassar/.gradle/caches/transforms-4/1494ee7cc89abedf25c09c0ed1273c0b/transformed/jetified-firebase-database-21.0.0/AndroidManifest.xml:34:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:57:13-59:85
+127                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+127-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:58:17-122
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:59:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:60:13-62:85
+130                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+130-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:61:17-119
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:62:17-82
+132            <meta-data
+132-->[com.google.firebase:firebase-storage:21.0.1] /home/vassar/.gradle/caches/transforms-4/0c9da7ee8a8ca921fa62d0eba9770bc9/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:30:13-32:85
+133                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+133-->[com.google.firebase:firebase-storage:21.0.1] /home/vassar/.gradle/caches/transforms-4/0c9da7ee8a8ca921fa62d0eba9770bc9/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:31:17-118
+134                android:value="com.google.firebase.components.ComponentRegistrar" />
+134-->[com.google.firebase:firebase-storage:21.0.1] /home/vassar/.gradle/caches/transforms-4/0c9da7ee8a8ca921fa62d0eba9770bc9/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:32:17-82
+135            <meta-data
+135-->[com.google.firebase:firebase-storage:21.0.1] /home/vassar/.gradle/caches/transforms-4/0c9da7ee8a8ca921fa62d0eba9770bc9/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:33:13-35:85
+136                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+136-->[com.google.firebase:firebase-storage:21.0.1] /home/vassar/.gradle/caches/transforms-4/0c9da7ee8a8ca921fa62d0eba9770bc9/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:34:17-107
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.firebase:firebase-storage:21.0.1] /home/vassar/.gradle/caches/transforms-4/0c9da7ee8a8ca921fa62d0eba9770bc9/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:35:17-82
+138            <meta-data
+138-->[com.google.firebase:firebase-appcheck:18.0.0] /home/vassar/.gradle/caches/transforms-4/c743a2a76ece7b711e5a9e5ee37f9bfd/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+139                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+139-->[com.google.firebase:firebase-appcheck:18.0.0] /home/vassar/.gradle/caches/transforms-4/c743a2a76ece7b711e5a9e5ee37f9bfd/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.firebase:firebase-appcheck:18.0.0] /home/vassar/.gradle/caches/transforms-4/c743a2a76ece7b711e5a9e5ee37f9bfd/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+141            <meta-data
+141-->[com.google.firebase:firebase-appcheck:18.0.0] /home/vassar/.gradle/caches/transforms-4/c743a2a76ece7b711e5a9e5ee37f9bfd/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+142                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+142-->[com.google.firebase:firebase-appcheck:18.0.0] /home/vassar/.gradle/caches/transforms-4/c743a2a76ece7b711e5a9e5ee37f9bfd/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-appcheck:18.0.0] /home/vassar/.gradle/caches/transforms-4/c743a2a76ece7b711e5a9e5ee37f9bfd/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-installations:18.0.0] /home/vassar/.gradle/caches/transforms-4/0a2813f5ea3351f698579f084c6e52c4/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+145                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+145-->[com.google.firebase:firebase-installations:18.0.0] /home/vassar/.gradle/caches/transforms-4/0a2813f5ea3351f698579f084c6e52c4/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-installations:18.0.0] /home/vassar/.gradle/caches/transforms-4/0a2813f5ea3351f698579f084c6e52c4/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-installations:18.0.0] /home/vassar/.gradle/caches/transforms-4/0a2813f5ea3351f698579f084c6e52c4/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+148                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+148-->[com.google.firebase:firebase-installations:18.0.0] /home/vassar/.gradle/caches/transforms-4/0a2813f5ea3351f698579f084c6e52c4/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-installations:18.0.0] /home/vassar/.gradle/caches/transforms-4/0a2813f5ea3351f698579f084c6e52c4/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/vassar/.gradle/caches/transforms-4/97664deb2bd4607302a7c6d7482e8217/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+151                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+151-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/vassar/.gradle/caches/transforms-4/97664deb2bd4607302a7c6d7482e8217/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/vassar/.gradle/caches/transforms-4/97664deb2bd4607302a7c6d7482e8217/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-common:21.0.0] /home/vassar/.gradle/caches/transforms-4/26246f93c92a770f1364ea590bd48519/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+154                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+154-->[com.google.firebase:firebase-common:21.0.0] /home/vassar/.gradle/caches/transforms-4/26246f93c92a770f1364ea590bd48519/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-common:21.0.0] /home/vassar/.gradle/caches/transforms-4/26246f93c92a770f1364ea590bd48519/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-datatransport:18.2.0] /home/vassar/.gradle/caches/transforms-4/a331eaafe38b13ce0c659a5dcc6dc5a4/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+157                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+157-->[com.google.firebase:firebase-datatransport:18.2.0] /home/vassar/.gradle/caches/transforms-4/a331eaafe38b13ce0c659a5dcc6dc5a4/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-datatransport:18.2.0] /home/vassar/.gradle/caches/transforms-4/a331eaafe38b13ce0c659a5dcc6dc5a4/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+159        </service>
+160        <service
+160-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:9-17:72
+161            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+161-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:13-107
+162            android:exported="false"
+162-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:13-37
+163            android:permission="android.permission.BIND_JOB_SERVICE" />
+163-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:17:13-69
+164        <service
+164-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:18:9-24:19
+165            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+165-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:19:13-97
+166            android:exported="false" >
+166-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:20:13-37
+167            <intent-filter>
+167-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:13-23:29
+168                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+168-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:17-78
+168-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:25-75
+169            </intent-filter>
+170        </service>
+171
+172        <receiver
+172-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:26:9-33:20
+173            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+173-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:13-98
+174            android:exported="true"
+174-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:13-36
+175            android:permission="com.google.android.c2dm.permission.SEND" >
+175-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:13-73
+176            <intent-filter>
+176-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:30:13-32:29
+177                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+177-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:17-81
+177-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:25-78
+178            </intent-filter>
+179        </receiver>
+180
+181        <provider
+181-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:41:9-45:38
+182            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+182-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:42:13-102
+183            android:authorities="com.vassar.fieldrishi.flutterfirebasemessaginginitprovider"
+183-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:43:13-88
+184            android:exported="false"
+184-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:44:13-37
+185            android:initOrder="99" />
+185-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:45:13-35
+186
+187        <service
+187-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:9-16:44
+188            android:name="id.flutter.flutter_background_service.BackgroundService"
+188-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:13-83
+189            android:enabled="true"
+189-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:13-35
+190            android:exported="true"
+190-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:13-36
+191            android:stopWithTask="false" />
+191-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:13-41
+192
+193        <receiver
+193-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:18:9-21:39
+194            android:name="id.flutter.flutter_background_service.WatchdogReceiver"
+194-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:19:13-82
+195            android:enabled="true"
+195-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:20:13-35
+196            android:exported="true" />
+196-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:13-36
+197        <receiver
+197-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:9-31:20
+198            android:name="id.flutter.flutter_background_service.BootReceiver"
+198-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:23:13-78
+199            android:enabled="true"
+199-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:24:13-35
+200            android:exported="true" >
+200-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:13-36
+201            <intent-filter>
+201-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:26:13-30:29
+202                <action android:name="android.intent.action.BOOT_COMPLETED" />
+202-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:17-79
+202-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:27:25-76
+203                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+203-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:17-82
+203-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:25-79
+204                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+204-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:17-84
+204-->[:flutter_background_service_android] /home/vassar/Desktop/chatApp/gka/build/flutter_background_service_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:25-81
+205            </intent-filter>
+206        </receiver>
+207
+208        <provider
+208-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:9-17:20
+209            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+209-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:13-82
+210            android:authorities="com.vassar.fieldrishi.flutter.image_provider"
+210-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-74
+211            android:exported="false"
+211-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:13-37
+212            android:grantUriPermissions="true" >
+212-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:13-47
+213            <meta-data
+213-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:13-16:75
+214                android:name="android.support.FILE_PROVIDER_PATHS"
+214-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:17-67
+215                android:resource="@xml/flutter_image_picker_file_paths" />
+215-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:17-72
+216        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+217        <service
+217-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:19:9-31:19
+218            android:name="com.google.android.gms.metadata.ModuleDependencies"
+218-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:20:13-78
+219            android:enabled="false"
+219-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:13-36
+220            android:exported="false" >
+220-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:13-37
+221            <intent-filter>
+221-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:24:13-26:29
+222                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+222-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:17-94
+222-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:25:25-91
+223            </intent-filter>
+224
+225            <meta-data
+225-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:28:13-30:36
+226                android:name="photopicker_activity:0:required"
+226-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:29:17-63
+227                android:value="" />
+227-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:30:17-33
+228        </service>
+229
+230        <provider
+230-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:9-25:20
+231            android:name="com.crazecoder.openfile.FileProvider"
+231-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:17:13-64
+232            android:authorities="com.vassar.fieldrishi.fileProvider.com.crazecoder.openfile"
+232-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:18:13-88
+233            android:exported="false"
+233-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:19:13-37
+234            android:grantUriPermissions="true" >
+234-->[:open_filex] /home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:20:13-47
+235            <meta-data
+235-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:13-16:75
+236                android:name="android.support.FILE_PROVIDER_PATHS"
+236-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:17-67
+237                android:resource="@xml/filepaths" />
+237-->[:image_picker_android] /home/vassar/Desktop/chatApp/gka/build/image_picker_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:16:17-72
+238        </provider>
+239
+240        <activity
+240-->[:url_launcher_android] /home/vassar/Desktop/chatApp/gka/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-11:74
+241            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+241-->[:url_launcher_android] /home/vassar/Desktop/chatApp/gka/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-74
+242            android:exported="false"
+242-->[:url_launcher_android] /home/vassar/Desktop/chatApp/gka/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:13-37
+243            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+243-->[:url_launcher_android] /home/vassar/Desktop/chatApp/gka/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-71
+244
+245        <receiver
+245-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:29:9-40:20
+246            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+246-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:30:13-78
+247            android:exported="true"
+247-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:31:13-36
+248            android:permission="com.google.android.c2dm.permission.SEND" >
+248-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:32:13-73
+249            <intent-filter>
+249-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:30:13-32:29
+250                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+250-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:17-81
+250-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:31:25-78
+251            </intent-filter>
+252
+253            <meta-data
+253-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:37:13-39:40
+254                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+254-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:38:17-92
+255                android:value="true" />
+255-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:39:17-37
+256        </receiver>
+257        <!--
+258             FirebaseMessagingService performs security checks at runtime,
+259             but set to not exported to explicitly avoid allowing another app to call it.
+260        -->
+261        <service
+261-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:46:9-53:19
+262            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+262-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:47:13-82
+263            android:directBootAware="true"
+263-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:48:13-43
+264            android:exported="false" >
+264-->[com.google.firebase:firebase-messaging:24.1.1] /home/vassar/.gradle/caches/transforms-4/8ad7fc85c4c214817412eec608a69f9d/transformed/jetified-firebase-messaging-24.1.1/AndroidManifest.xml:49:13-37
+265            <intent-filter android:priority="-500" >
+265-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:21:13-23:29
+266                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+266-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:17-78
+266-->[:firebase_messaging] /home/vassar/Desktop/chatApp/gka/build/firebase_messaging/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:22:25-75
+267            </intent-filter>
+268        </service>
+269
+270        <activity
+270-->[com.google.android.gms:play-services-base:18.3.0] /home/vassar/.gradle/caches/transforms-4/e66f9f0b3c4705c24206c46a5771effe/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+271            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+271-->[com.google.android.gms:play-services-base:18.3.0] /home/vassar/.gradle/caches/transforms-4/e66f9f0b3c4705c24206c46a5771effe/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+272            android:exported="false"
+272-->[com.google.android.gms:play-services-base:18.3.0] /home/vassar/.gradle/caches/transforms-4/e66f9f0b3c4705c24206c46a5771effe/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+273            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+273-->[com.google.android.gms:play-services-base:18.3.0] /home/vassar/.gradle/caches/transforms-4/e66f9f0b3c4705c24206c46a5771effe/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+274
+275        <provider
+275-->[com.google.firebase:firebase-common:21.0.0] /home/vassar/.gradle/caches/transforms-4/26246f93c92a770f1364ea590bd48519/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+276            android:name="com.google.firebase.provider.FirebaseInitProvider"
+276-->[com.google.firebase:firebase-common:21.0.0] /home/vassar/.gradle/caches/transforms-4/26246f93c92a770f1364ea590bd48519/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+277            android:authorities="com.vassar.fieldrishi.firebaseinitprovider"
+277-->[com.google.firebase:firebase-common:21.0.0] /home/vassar/.gradle/caches/transforms-4/26246f93c92a770f1364ea590bd48519/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+278            android:directBootAware="true"
+278-->[com.google.firebase:firebase-common:21.0.0] /home/vassar/.gradle/caches/transforms-4/26246f93c92a770f1364ea590bd48519/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+279            android:exported="false"
+279-->[com.google.firebase:firebase-common:21.0.0] /home/vassar/.gradle/caches/transforms-4/26246f93c92a770f1364ea590bd48519/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+280            android:initOrder="100" />
+280-->[com.google.firebase:firebase-common:21.0.0] /home/vassar/.gradle/caches/transforms-4/26246f93c92a770f1364ea590bd48519/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+281
+282        <uses-library
+282-->[androidx.window:window:1.2.0] /home/vassar/.gradle/caches/transforms-4/77792e1ffe6a6123d2fb0fcc0b9b39e5/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+283            android:name="androidx.window.extensions"
+283-->[androidx.window:window:1.2.0] /home/vassar/.gradle/caches/transforms-4/77792e1ffe6a6123d2fb0fcc0b9b39e5/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+284            android:required="false" />
+284-->[androidx.window:window:1.2.0] /home/vassar/.gradle/caches/transforms-4/77792e1ffe6a6123d2fb0fcc0b9b39e5/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+285        <uses-library
+285-->[androidx.window:window:1.2.0] /home/vassar/.gradle/caches/transforms-4/77792e1ffe6a6123d2fb0fcc0b9b39e5/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+286            android:name="androidx.window.sidecar"
+286-->[androidx.window:window:1.2.0] /home/vassar/.gradle/caches/transforms-4/77792e1ffe6a6123d2fb0fcc0b9b39e5/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+287            android:required="false" />
+287-->[androidx.window:window:1.2.0] /home/vassar/.gradle/caches/transforms-4/77792e1ffe6a6123d2fb0fcc0b9b39e5/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+288
+289        <provider
+289-->[androidx.emoji2:emoji2:1.2.0] /home/vassar/.gradle/caches/transforms-4/9236efd068fd451329b39597a1940c88/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+290            android:name="androidx.startup.InitializationProvider"
+290-->[androidx.emoji2:emoji2:1.2.0] /home/vassar/.gradle/caches/transforms-4/9236efd068fd451329b39597a1940c88/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+291            android:authorities="com.vassar.fieldrishi.androidx-startup"
+291-->[androidx.emoji2:emoji2:1.2.0] /home/vassar/.gradle/caches/transforms-4/9236efd068fd451329b39597a1940c88/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+292            android:exported="false" >
+292-->[androidx.emoji2:emoji2:1.2.0] /home/vassar/.gradle/caches/transforms-4/9236efd068fd451329b39597a1940c88/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+293            <meta-data
+293-->[androidx.emoji2:emoji2:1.2.0] /home/vassar/.gradle/caches/transforms-4/9236efd068fd451329b39597a1940c88/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+294                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+294-->[androidx.emoji2:emoji2:1.2.0] /home/vassar/.gradle/caches/transforms-4/9236efd068fd451329b39597a1940c88/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+295                android:value="androidx.startup" />
+295-->[androidx.emoji2:emoji2:1.2.0] /home/vassar/.gradle/caches/transforms-4/9236efd068fd451329b39597a1940c88/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+296            <meta-data
+296-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/vassar/.gradle/caches/transforms-4/6521f601f8209b5945f68b2343d21b61/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+297                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+297-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/vassar/.gradle/caches/transforms-4/6521f601f8209b5945f68b2343d21b61/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+298                android:value="androidx.startup" />
+298-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/vassar/.gradle/caches/transforms-4/6521f601f8209b5945f68b2343d21b61/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+299            <meta-data
+299-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+300                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+300-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+301                android:value="androidx.startup" />
+301-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+302        </provider>
+303
+304        <meta-data
+304-->[com.google.android.gms:play-services-basement:18.3.0] /home/vassar/.gradle/caches/transforms-4/930397ff4502b52549cd2ff53b512453/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+305            android:name="com.google.android.gms.version"
+305-->[com.google.android.gms:play-services-basement:18.3.0] /home/vassar/.gradle/caches/transforms-4/930397ff4502b52549cd2ff53b512453/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+306            android:value="@integer/google_play_services_version" />
+306-->[com.google.android.gms:play-services-basement:18.3.0] /home/vassar/.gradle/caches/transforms-4/930397ff4502b52549cd2ff53b512453/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+307
+308        <receiver
+308-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+309            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+309-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+310            android:directBootAware="false"
+310-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+311            android:enabled="true"
+311-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+312            android:exported="true"
+312-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+313            android:permission="android.permission.DUMP" >
+313-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+314            <intent-filter>
+314-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+315                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+315-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+315-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+316            </intent-filter>
+317            <intent-filter>
+317-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+318                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+318-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+318-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+319            </intent-filter>
+320            <intent-filter>
+320-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+321                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+321-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+321-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+322            </intent-filter>
+323            <intent-filter>
+323-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+324                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+324-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+324-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/vassar/.gradle/caches/transforms-4/5e2ace66c24c575389d44fc8242f5350/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+325            </intent-filter>
+326        </receiver>
+327
+328        <service
+328-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/vassar/.gradle/caches/transforms-4/d0105fc140ceba551f2af5e8fbc40f52/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+329            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+329-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/vassar/.gradle/caches/transforms-4/d0105fc140ceba551f2af5e8fbc40f52/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+330            android:exported="false" >
+330-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/vassar/.gradle/caches/transforms-4/d0105fc140ceba551f2af5e8fbc40f52/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+331            <meta-data
+331-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/vassar/.gradle/caches/transforms-4/d0105fc140ceba551f2af5e8fbc40f52/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+332                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+332-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/vassar/.gradle/caches/transforms-4/d0105fc140ceba551f2af5e8fbc40f52/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+333                android:value="cct" />
+333-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /home/vassar/.gradle/caches/transforms-4/d0105fc140ceba551f2af5e8fbc40f52/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+334        </service>
+335        <service
+335-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/vassar/.gradle/caches/transforms-4/f196b1cefd2535176e309215a599b1e9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+336            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+336-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/vassar/.gradle/caches/transforms-4/f196b1cefd2535176e309215a599b1e9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+337            android:exported="false"
+337-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/vassar/.gradle/caches/transforms-4/f196b1cefd2535176e309215a599b1e9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+338            android:permission="android.permission.BIND_JOB_SERVICE" >
+338-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/vassar/.gradle/caches/transforms-4/f196b1cefd2535176e309215a599b1e9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+339        </service>
+340
+341        <receiver
+341-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/vassar/.gradle/caches/transforms-4/f196b1cefd2535176e309215a599b1e9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+342            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+342-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/vassar/.gradle/caches/transforms-4/f196b1cefd2535176e309215a599b1e9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+343            android:exported="false" />
+343-->[com.google.android.datatransport:transport-runtime:3.1.9] /home/vassar/.gradle/caches/transforms-4/f196b1cefd2535176e309215a599b1e9/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+344    </application>
+345
+346</manifest>

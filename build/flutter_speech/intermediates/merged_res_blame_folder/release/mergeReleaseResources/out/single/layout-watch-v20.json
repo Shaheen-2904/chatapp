@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-appcompat-1.2.0-19:/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-appcompat-1.2.0-19:/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]

@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.flutter.speech_recognition.flutter_speech-mergeReleaseResources-25:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/vassar/.gradle/caches/transforms-4/e4e869407c5fe0c28d0f8d8bd5742a66/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.flutter.speech_recognition.flutter_speech-release-27:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/home/vassar/.gradle/caches/transforms-4/e4e869407c5fe0c28d0f8d8bd5742a66/transformed/appcompat-1.2.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

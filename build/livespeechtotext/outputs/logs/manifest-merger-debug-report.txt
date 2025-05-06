@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:1:1-5:12
+INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:1:1-5:12
+	package
+		ADDED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:2:3-45
+		INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:3:5-71
+	android:name
+		ADDED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:3:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:4:5-80
+	android:name
+		ADDED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:4:22-77
+uses-sdk
+INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml
+INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml

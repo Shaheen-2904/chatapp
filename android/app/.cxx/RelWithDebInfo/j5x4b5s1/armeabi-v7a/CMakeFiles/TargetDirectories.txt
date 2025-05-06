@@ -1,0 +1,2 @@
+/home/vassar/Desktop/chatApp/gka/android/app/.cxx/RelWithDebInfo/j5x4b5s1/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/vassar/Desktop/chatApp/gka/android/app/.cxx/RelWithDebInfo/j5x4b5s1/armeabi-v7a/CMakeFiles/rebuild_cache.dir

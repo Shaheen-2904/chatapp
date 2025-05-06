@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyD4kQrxxhyhqQwRjhnKRVJPgpT9jkuadUo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1062998944432</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.vassar.fieldrishi</string>
+	<key>PROJECT_ID</key>
+	<string>apwrims---chatbot</string>
+	<key>STORAGE_BUCKET</key>
+	<string>apwrims---chatbot.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1062998944432:ios:597dab286cd6fc12f22975</string>
+</dict>
+</plist>

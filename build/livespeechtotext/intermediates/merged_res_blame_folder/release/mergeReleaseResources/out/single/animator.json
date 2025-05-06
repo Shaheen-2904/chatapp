@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.overmycloud.livespeechtotext-release-25:/animator/fragment_close_enter.xml",
+        "source": "com.overmycloud.livespeechtotext-fragment-1.7.1-13:/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "com.overmycloud.livespeechtotext-release-25:/animator/fragment_close_exit.xml",
+        "source": "com.overmycloud.livespeechtotext-fragment-1.7.1-13:/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "com.overmycloud.livespeechtotext-release-25:/animator/fragment_fade_enter.xml",
+        "source": "com.overmycloud.livespeechtotext-fragment-1.7.1-13:/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "com.overmycloud.livespeechtotext-release-25:/animator/fragment_fade_exit.xml",
+        "source": "com.overmycloud.livespeechtotext-fragment-1.7.1-13:/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "com.overmycloud.livespeechtotext-release-25:/animator/fragment_open_enter.xml",
+        "source": "com.overmycloud.livespeechtotext-fragment-1.7.1-13:/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "com.overmycloud.livespeechtotext-release-25:/animator/fragment_open_exit.xml",
+        "source": "com.overmycloud.livespeechtotext-fragment-1.7.1-13:/animator/fragment_open_exit.xml"
+    }
+]

@@ -1,0 +1,14 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.overmycloud.livespeechtotext" >
+4
+5    <uses-sdk android:minSdkVersion="21" />
+6
+7    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+7-->/home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:3:5-71
+7-->/home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:3:22-68
+8    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+8-->/home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:4:5-80
+8-->/home/vassar/.pub-cache/hosted/pub.dev/livespeechtotext-1.0.9/android/src/main/AndroidManifest.xml:4:22-77
+9
+10</manifest>

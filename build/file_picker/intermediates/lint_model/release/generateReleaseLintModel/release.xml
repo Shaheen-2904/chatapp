@@ -1,0 +1,32 @@
+<variant
+    name="release"
+    package="com.mr.flutter.plugin.filepicker"
+    minSdkVersion="21"
+    targetSdkVersion="21"
+    mergedManifest="/home/vassar/Desktop/chatApp/gka/build/file_picker/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
+    manifestMergeReport="/home/vassar/Desktop/chatApp/gka/build/file_picker/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/home/vassar/Desktop/chatApp/gka/build/file_picker/intermediates/default_proguard_files/global/proguard-android.txt-8.6.0"
+    consumerProguardFiles="proguard-rules.pro"
+    partialResultsDir="/home/vassar/Desktop/chatApp/gka/build/file_picker/intermediates/lint_partial_results/release/lintAnalyzeRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="/home/vassar/Desktop/chatApp/gka/build/file_picker/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/home/vassar/Desktop/chatApp/gka/build/file_picker/tmp/kotlin-classes/release:/home/vassar/Desktop/chatApp/gka/build/file_picker/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
+      type="MAIN"
+      applicationId="com.mr.flutter.plugin.filepicker"
+      generatedSourceFolders="/home/vassar/Desktop/chatApp/gka/build/file_picker/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/home/vassar/Desktop/chatApp/gka/build/file_picker/generated/res/resValues/release"
+      desugaredMethodsFiles="/home/vassar/.gradle/caches/transforms-4/adf8e5bc8df4e854e81ef4b77de72059/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

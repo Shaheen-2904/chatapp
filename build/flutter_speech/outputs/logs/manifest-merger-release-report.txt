@@ -1,0 +1,29 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml:1:1-10:12
+INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml:2:3-43
+		INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml:3:5-71
+	android:name
+		ADDED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml:3:22-68
+queries
+ADDED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml:5:5-9:15
+intent#action:name:android.speech.RecognitionService
+ADDED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml:6:9-8:18
+action#android.speech.RecognitionService
+ADDED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml:7:13-72
+	android:name
+		ADDED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml:7:21-69
+uses-sdk
+INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml
+INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/vassar/.pub-cache/hosted/pub.dev/flutter_speech-2.0.1/android/src/main/AndroidManifest.xml

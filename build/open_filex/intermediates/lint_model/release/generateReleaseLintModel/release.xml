@@ -1,0 +1,31 @@
+<variant
+    name="release"
+    package="com.crazecoder.openfile"
+    minSdkVersion="16"
+    targetSdkVersion="16"
+    mergedManifest="/home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml"
+    manifestMergeReport="/home/vassar/Desktop/chatApp/gka/build/open_filex/outputs/logs/manifest-merger-release-report.txt"
+    proguardFiles="/home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/default_proguard_files/global/proguard-android.txt-8.6.0"
+    partialResultsDir="/home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/lint_partial_results/release/lintAnalyzeRelease/out">
+  <buildFeatures
+      namespacing="REQUIRED"/>
+  <sourceProviders>
+    <sourceProvider
+        manifests="src/main/AndroidManifest.xml"
+        javaDirectories="src/main/java:src/release/java:src/main/kotlin:src/release/kotlin"
+        resDirectories="src/main/res:src/release/res"
+        assetsDirectories="src/main/assets:src/release/assets"/>
+  </sourceProviders>
+  <testSourceProviders>
+  </testSourceProviders>
+  <testFixturesSourceProviders>
+  </testFixturesSourceProviders>
+  <artifact
+      classOutputs="/home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/javac/release/compileReleaseJavaWithJavac/classes:/home/vassar/Desktop/chatApp/gka/build/open_filex/intermediates/compile_r_class_jar/release/generateReleaseRFile/R.jar"
+      type="MAIN"
+      applicationId="com.crazecoder.openfile"
+      generatedSourceFolders="/home/vassar/Desktop/chatApp/gka/build/open_filex/generated/ap_generated_sources/release/out"
+      generatedResourceFolders="/home/vassar/Desktop/chatApp/gka/build/open_filex/generated/res/resValues/release"
+      desugaredMethodsFiles="/home/vassar/.gradle/caches/transforms-4/6845345fce89f0ba137fb4005bfc319f/transformed/D8BackportedDesugaredMethods.txt">
+  </artifact>
+</variant>

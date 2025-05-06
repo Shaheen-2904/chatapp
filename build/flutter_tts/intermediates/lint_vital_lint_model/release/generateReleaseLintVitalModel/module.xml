@@ -1,0 +1,29 @@
+<lint-module
+    format="1"
+    dir="/home/vassar/.pub-cache/hosted/pub.dev/flutter_tts-4.2.2/android"
+    name=":flutter_tts"
+    type="LIBRARY"
+    maven="com.tundralabs.fluttertts:flutter_tts:1.0-SNAPSHOT"
+    agpVersion="8.6.0"
+    buildFolder="/home/vassar/Desktop/chatApp/gka/build/flutter_tts"
+    bootClassPath="/home/vassar/Android/Sdk/platforms/android-35/android.jar:/home/vassar/Android/Sdk/build-tools/35.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-35"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage,GradleDependency"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="GradleDependency"
+        severity="IGNORE" />
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>

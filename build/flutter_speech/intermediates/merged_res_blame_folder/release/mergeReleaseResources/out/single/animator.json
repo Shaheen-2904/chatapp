@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/animator/fragment_fade_exit.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-fragment-1.7.1-13:/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/animator/fragment_open_enter.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-fragment-1.7.1-13:/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/animator/fragment_close_enter.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-fragment-1.7.1-13:/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/animator/fragment_open_exit.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-fragment-1.7.1-13:/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/animator/fragment_close_exit.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-fragment-1.7.1-13:/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/animator/fragment_fade_enter.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-fragment-1.7.1-13:/animator/fragment_fade_enter.xml"
+    }
+]

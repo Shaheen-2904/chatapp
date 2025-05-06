@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-core-1.13.1-18:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-core-1.13.1-18:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-core-1.13.1-18:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.flutter.speech_recognition.flutter_speech-release-27:/layout-v21/notification_action.xml",
+        "source": "com.flutter.speech_recognition.flutter_speech-core-1.13.1-18:/layout-v21/notification_action.xml"
+    }
+]
